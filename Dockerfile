@@ -1,7 +1,3 @@
-#FROM openjdk:17
-#ADD target/SpringDocker-0.0.1-SNAPSHOT.jar app.jar
-#ENTRYPOINT [ "java" , "-jar", "/app.jar" ]
-
 # Use an official OpenJDK runtime as a parent image
 FROM openjdk:17-jdk-alpine
 
